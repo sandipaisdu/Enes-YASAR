@@ -523,6 +523,7 @@ i.fa.fa-map-marker.footer_map{
   color: #b8b8b8;
   font-size: 100px;
 }
+
 .social {
   background: #b8b8b8;
   color: #fff;
@@ -535,4 +536,75 @@ i.fa.fa-map-marker.footer_map{
   margin-top: 20%;
   float: right;
   margin-right: 10px;
+}
+
+
+/*Style for iletisim*/
+.icons {
+  margin-top: -45px;
+  margin-bottom: 10px;
+}
+
+.itisim_header{
+  background-image: url('img/header_bg.jpg');
+}
+.iletisim_headline{
+      font-family: 'FranchiseFreeBold';
+      color: #b7d668;
+}
+
+.phone_number,.fax_mail{
+  color: #898a89;
+  font-weight: bold;
+}
+i.fa.fa-fax,i.fa.fa-envelope {
+  font-size: 25px;
+  padding: 5px;
+}
+p.address {
+  line-height: 30px;
+  color: #898a89;
+  font-weight: bold;
+}
+
+
+
+
+form {
+  margin-top: 50px;
+  position: relative;
+    margin-bottom: 10px;
+}
+
+input.first_field, input.second_field, input.third_field {
+  background-color: #efefef;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+textarea.msg {
+  background-color: #efefef;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  height: 100px;
+}
+i.fa.fa-paper-plane.send_icon {
+  color: #898a89;
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+}
+.map{
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  background-color: #ddd;
+  opacity: .6;
+  top: 0px;
+  min-height: 380px;
+  width: 100%;
 }
