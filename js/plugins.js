@@ -22,3 +22,7 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+$('#myTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})

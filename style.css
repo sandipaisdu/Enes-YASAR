@@ -277,20 +277,21 @@ i.fa.fa-chevron-right {
   display: block;
   width: 100%;
   height: auto;
+  height: 300px;
 }
 
 
 i.fa.fa-chevron-left.left_owl {
 background-color: #AED13F;
   position: absolute;
-  top: -17%;
+  top: -13%;
   left: 33%;
 }
 
 i.fa.fa-chevron-right.right_owl {
   background-color: #AED13F;
   position: absolute;
-  top: -17%;
+  top: -13%;
   right: 62%;
 
 }
@@ -608,3 +609,75 @@ i.fa.fa-paper-plane.send_icon {
   min-height: 380px;
   width: 100%;
 }
+
+
+
+
+
+/*Kurumashal page styles*/
+.tab-content {
+  clear: both;
+    margin-top: 10px;
+}
+.tab_text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+ul.nav.nav-tabs {
+  float: right;
+  margin-top: 23px;
+}
+.tab_top {
+  background: #eee;
+  height: 65px;
+}
+.tab_title{
+      font-family: 'FranchiseFreeBold';
+      color: #b7d668;
+      font-size: 40px;
+}
+/*Kurumashal page styles*/
+
+
+
+
+
+
+/*category page styles*/
+.catalog_header {
+          background: #eee;
+}
+h2.catalog_heading {
+        font-family: 'FranchiseFreeBold';
+      color: #b7d668;
+      font-size: 40px;
+
+}
+.col-md-6.category {
+  text-align: right;
+}
+.select {
+  border: none;
+  padding: 10px;
+  width: 200px;
+    margin-top: 20px;
+}
+/*category page styles*/
+
+
+
+
+/*back page style*/
+.back_1{
+  max-width: 100%;
+}
+.down{
+  position: relative;
+}
+.back_2 {
+  max-width: 100%;
+  position: absolute;
+  top: -121px;
+}
+/*back page style*/

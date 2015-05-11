@@ -7,9 +7,18 @@ $(document).ready(function() {
         navigationText : ["<i class='fa fa-chevron-left left_owl'>","<i class='fa fa-chevron-right right_owl'>"],
       });
 
+      $("#owl-category").owlCarousel({
+        items : 4,
+        lazyLoad : true,
+        navigation : true,
+        navigationText : ["<i class='fa fa-chevron-left left_owl'>","<i class='fa fa-chevron-right right_owl'>"],
+      });
+
 
       $('.carousel').carousel({
 		  interval: 3000
 		})
+
+      
 
     });
